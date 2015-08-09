@@ -11,7 +11,7 @@ plot4<- function() {
   rm(raw)
   
   # open png device
-  png(filename = "./plot4.png", height = 480, width = 480, bg="white")#bg = "transparent")
+  png(filename = "./plot4.png", height = 480, width = 480, bg = "transparent")
   
   # facet plot
   par(mfrow = c(2,2))
